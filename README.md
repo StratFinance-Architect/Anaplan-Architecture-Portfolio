@@ -18,7 +18,8 @@ Automated IFRS 18 restatement engine in Anaplan that "walks" Trial Balance into 
 Instead of simple remapping, I engineered a disaggregation logic (CALC03) that uses percentage-based drivers to split individual G/L accounts, ensuring core costs are separated from financing elements like lease interest. 
 
 
-<img width="661" height="593" alt="image" src="https://github.com/user-attachments/assets/43e52dd3-788a-412a-88cf-705ac131c2fe" />
+<img width="896" height="585" alt="image" src="https://github.com/user-attachments/assets/2ac234f8-3c02-4151-9bd9-501a9c455af3" />
+
 
 
 To guarantee data integrity, I implemented a zero-leakage audit module (AUD01) that reconciles the restated totals back to the source data, proving that while the "Operating Profit" has been divided, the total bottom line remains identical. The final output is a specialized reporting layer (REP01) that powers an executive waterfall chart, providing a clear, audit-ready visual of how the P&L shifts from the old standard to the new IFRS 18 definition.
