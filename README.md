@@ -18,7 +18,8 @@ Automated IFRS 18 restatement engine in Anaplan that "walks" Trial Balance into 
 Instead of simple remapping, I engineered a disaggregation logic (CALC03) that uses percentage-based drivers to split individual G/L accounts, ensuring core costs are separated from financing elements like lease interest. 
 
 
-<img width="896" height="585" alt="image" src="https://github.com/user-attachments/assets/2ac234f8-3c02-4151-9bd9-501a9c455af3" />
+<img width="1082" height="556" alt="image" src="https://github.com/user-attachments/assets/a64c10c2-390f-4317-b406-b15efcb43d16" />
+
 
 
 
